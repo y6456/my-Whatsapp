@@ -52,6 +52,13 @@ proxies:
   - { name: '🇨🇦 加拿大-家宽 01丨2x CA', type: ss, server: 686tliz0.mobilfunk.top, port: 13117, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇨🇦 加拿大-家宽 02丨2x CA', type: ss, server: 686tliz0.mobilfunk.top, port: 13291, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇨🇦 加拿大-家宽 03丨1x CA', type: ss, server: 686tliz0.mobilfunk.top, port: 13270, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
+  - { name: '🇭🇰 香港 011', type: anytls, server: b89c106690e14d3004d0a2031f5cc1c7.1a567.we-aliyun.click, port: 63101, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
+  - { name: '🇭🇰 香港 022', type: anytls, server: c.f.5.q.f.9.y.e.1a567.we-aliyun.click, port: 63102, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
+  - { name: '🇭🇰 香港 033', type: anytls, server: b89c106690e14d3004d0a2031f5cc1c7.1a567.we-aliyun.click, port: 63103, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
+  - { name: '🇭🇰 香港 044', type: anytls, server: j.o.2.f.y.a.q.8.1a567.we-aliyun.click, port: 63104, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
+  - { name: '🇭🇰 香港 055', type: anytls, server: b89c106690e14d3004d0a2031f5cc1c7.1a567.we-aliyun.click, port: 63105, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
+  - { name: '🇭🇰 香港 066', type: anytls, server: c.x.1.z.v.l.g.n.1a567.we-aliyun.click, port: 63106, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: mmbiz.qpic.cn, skip-cert-verify: true }
+  - { name: '🇭🇰 香港 HKBN 家宽 [2x]', type: anytls, server: 1.i.q.9.1.5.r.y.1a567.we-aliyun.click, port: 63107, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
 proxy-groups:
   - name: "WhatsApp"
     type: select
@@ -94,6 +101,13 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - US-HIXX
+      - '🇭🇰 香港 011'
+      - '🇭🇰 香港 022'
+      - '🇭🇰 香港 033'
+      - '🇭🇰 香港 044'
+      - '🇭🇰 香港 055'
+      - '🇭🇰 香港 066'
+      - '🇭🇰 香港 HKBN 家宽 [2x]'
       - '🇭🇰 香港 01丨1x HK'
       - '🇭🇰 香港 02丨1x HK'
       - '🇭🇰 香港 03丨1x HK'
@@ -185,6 +199,13 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - '🇭🇰 香港 011'
+      - '🇭🇰 香港 022'
+      - '🇭🇰 香港 033'
+      - '🇭🇰 香港 044'
+      - '🇭🇰 香港 055'
+      - '🇭🇰 香港 066'
+      - '🇭🇰 香港 HKBN 家宽 [2x]'
       - '🇭🇰 香港 01丨1x HK'
       - '🇭🇰 香港 02丨1x HK'
       - '🇭🇰 香港 03丨1x HK'

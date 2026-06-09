@@ -292,7 +292,6 @@ rules:
   - DOMAIN-SUFFIX,wa.me,WhatsApp
   - DOMAIN-SUFFIX,fbcdn.net,WhatsApp
   - DOMAIN-KEYWORD,whatsapp,WhatsApp
-
 # 通话 / UDP
   - DST-PORT,3478,WhatsApp
   - DST-PORT,4244,WhatsApp

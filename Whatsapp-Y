@@ -60,6 +60,11 @@ proxies:
   - { name: '🇭🇰 香港 055', type: anytls, server: b89c106690e14d3004d0a2031f5cc1c7.1a567.we-aliyun.click, port: 63105, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
   - { name: '🇭🇰 香港 066', type: anytls, server: c.x.1.z.v.l.g.n.1a567.we-aliyun.click, port: 63106, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: mmbiz.qpic.cn, skip-cert-verify: true }
   - { name: '🇭🇰 香港 HKBN 家宽 [2x]', type: anytls, server: 1.i.q.9.1.5.r.y.1a567.we-aliyun.click, port: 63107, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
+  - { name: '🇺🇸 美国 01', type: anytls, server: y.3.f.r.w.n.j.4.1a567.we-aliyun.click, port: 63126, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
+  - { name: '🇺🇸 美国 02', type: anytls, server: u.4.f.e.1.x.r.9.1a567.we-aliyun.click, port: 63127, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
+  - { name: '🇺🇸 美国 03', type: anytls, server: b89c106690e14d3004d0a2031f5cc1c7.1a567.we-aliyun.click, port: 63128, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
+  - { name: '🇺🇸 美国 04', type: anytls, server: b89c106690e14d3004d0a2031f5cc1c7.1a567.we-aliyun.click, port: 63129, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
+  - { name: '🇺🇸 美国 05', type: anytls, server: b89c106690e14d3004d0a2031f5cc1c7.1a567.we-aliyun.click, port: 63130, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
 proxy-groups:
   - name: "WhatsApp"
     type: select
@@ -92,6 +97,11 @@ proxy-groups:
       - '🇨🇦 加拿大-家宽 01丨2x CA'
       - '🇨🇦 加拿大-家宽 02丨2x CA'
       - '🇨🇦 加拿大-家宽 03丨1x CA'
+      - '🇺🇸 美国 01'
+      - '🇺🇸 美国 02'
+      - '🇺🇸 美国 03'
+      - '🇺🇸 美国 04'
+      - '🇺🇸 美国 05'
   - name: 🚀 节点选择
     type: select
     proxies:
@@ -139,6 +149,11 @@ proxy-groups:
       - '🇺🇸 美国-阿什本丨1x US'
       - '🇺🇸 美国-拉斯维加斯丨1x US'
       - '🇭🇰 香港 HKBN 家宽 [2x]'
+      - '🇺🇸 美国 01'
+      - '🇺🇸 美国 02'
+      - '🇺🇸 美国 03'
+      - '🇺🇸 美国 04'
+      - '🇺🇸 美国 05'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204

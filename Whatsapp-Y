@@ -27,6 +27,7 @@ dns:
 proxies:
   - { name: US-HIXX, server: dmitf.551554.xyz, port: 36482, type: anytls, password: LDoMmJjN, tls: true, sni: aif.551554.xyz}
   - {name: 联通9929-US家宽2, type: vless, server: 216.167.67.83, port: 24693, uuid: 1ee29309-3992-4f17-9f4d-86860cb93f40, network: tcp, udp: true, tls: true, client-fingerprint: chrome, servername: aws.amazon.com, reality-opts: {public-key: 7Uv50mbe1VwfBU1ge9DUkU78BcHzRBLTrAjA82wQnwQ, short-id: 11314f8a}}
+　- { name: US家宽SS-¥30试用, type: vless, server: 216.167.67.83, port: 58261, uuid: fc8c964c-68df-440c-9bf4-3e657a5a3dab, network: tcp, tls: true, udp: true, servername: www.amd.com, client-fingerprint: chrome, reality-opts: { public-key: cCVVSFZ38qm7Aq6MuYr-x0DUAZTU2xuYZDNWZMA7FEk, short-id: 95b0fadb } }
   - { name: '🇭🇰 香港 01丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 12022, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇭🇰 香港 02丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 12023, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇭🇰 香港 03丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 12024, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
@@ -88,6 +89,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 联通9929-US家宽2
+      - US家宽SS-¥30试用
       - '🇺🇸 美国-纽约 01丨1x US'
       - '🇺🇸 美国-纽约 02丨3x US'
       - '🇺🇸 美国-纽约 03丨1x US'
@@ -126,6 +128,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - US-HIXX
+      - US家宽SS-¥30试用
       - '🇭🇰 香港 011'
       - '🇭🇰 香港 022'
       - '🇭🇰 香港 033'

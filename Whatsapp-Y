@@ -10,9 +10,10 @@ global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
   - { name: US-HIXX, server: dmitf.551554.xyz, port: 36482, type: anytls, password: LDoMmJjN, tls: true, sni: aif.551554.xyz}
-  - { name: 联通9929-US家宽2, type: vless, server: 216.167.67.83, port: 24693, uuid: 1ee29309-3992-4f17-9f4d-86860cb93f40, network: tcp, udp: true, tls: true, client-fingerprint: chrome, servername: aws.amazon.com, reality-opts: {public-key: 7Uv50mbe1VwfBU1ge9DUkU78BcHzRBLTrAjA82wQnwQ, short-id: 11314f8a}}
+  - { name: 联通9929-US家宽20, type: vless, server: 216.167.67.83, port: 24693, uuid: 1ee29309-3992-4f17-9f4d-86860cb93f40, network: tcp, udp: true, tls: true, client-fingerprint: chrome, servername: aws.amazon.com, reality-opts: {public-key: 7Uv50mbe1VwfBU1ge9DUkU78BcHzRBLTrAjA82wQnwQ, short-id: 11314f8a}}
   - { name: US家宽SS-¥30试用, type: vless, server: 216.167.67.83, port: 58261, uuid: fc8c964c-68df-440c-9bf4-3e657a5a3dab, network: tcp, tls: true, udp: true, servername: www.amd.com, client-fingerprint: chrome, reality-opts: { public-key: cCVVSFZ38qm7Aq6MuYr-x0DUAZTU2xuYZDNWZMA7FEk, short-id: 95b0fadb } }
   - { name: '🇭🇰 香港 01丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 12022, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
+  - { name: DMIT-CN2GIA-Fro家宽, type: vless, server: 179.255.100.130, port: 57300, uuid: f9138b2c-2666-4f2a-8d21-333f80c9ef92, network: tcp, udp: true, tls: true, servername: www.amazon.com, reality-opts: { public-key: _TmGwIZhY9uYfc8JOEv2AIAGulfvmX5DxSI1FiKiQBE, short-id: ca22b4fa7e5960 }, client-fingerprint: chrome }
   - { name: '🇭🇰 香港 02丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 12023, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇭🇰 香港 03丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 12024, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇭🇰 香港家宽 01丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 12729, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
@@ -55,25 +56,14 @@ proxies:
   - { name: '🇨🇦 加拿大-家宽 01丨2x CA', type: ss, server: 2fc4443b-87c4-4b1d-ba6c-67ab211b0ded.aixifan7498.com, port: 13117, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇨🇦 加拿大-家宽 02丨2x CA', type: ss, server: 2fc4443b-87c4-4b1d-ba6c-67ab211b0ded.aixifan7498.com, port: 13291, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇨🇦 加拿大-家宽 03丨1x CA', type: ss, server: 2fc4443b-87c4-4b1d-ba6c-67ab211b0ded.aixifan7498.com, port: 13270, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
-  - { name: '🇭🇰 香港 011', type: anytls, server: b89c106690e14d3004d0a2031f5cc1c7.3c3b4.we-aliyun.click, port: 63101, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
-  - { name: '🇭🇰 香港 022', type: anytls, server: b89c106690e14d3004d0a2031f5cc1c7.3c3b4.we-aliyun.click, port: 63102, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
-  - { name: '🇭🇰 香港 033', type: anytls, server: b89c106690e14d3004d0a2031f5cc1c7.3c3b4.we-aliyun.click, port: 63103, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
-  - { name: '🇭🇰 香港 044', type: anytls, server: b89c106690e14d3004d0a2031f5cc1c7.3c3b4.we-aliyun.click, port: 63104, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
-  - { name: '🇭🇰 香港 055', type: anytls, server: b89c106690e14d3004d0a2031f5cc1c7.3c3b4.we-aliyun.click, port: 63105, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
-  - { name: '🇭🇰 香港 066', type: anytls, server: l.w.q.o.s.m.m.1.3c3b4.we-aliyun.click, port: 63106, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: mmbiz.qpic.cn, skip-cert-verify: true }
-  - { name: '🇭🇰 香港 HKBN 家宽 [2x]', type: anytls, server: 1.i.q.9.1.5.r.y.1a567.we-aliyun.click, port: 63107, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
-  - { name: '🇺🇸 美国 01', type: anytls, server: b89c106690e14d3004d0a2031f5cc1c7.3c3b4.we-aliyun.click, port: 63126, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
-  - { name: '🇺🇸 美国 02', type: anytls, server: b89c106690e14d3004d0a2031f5cc1c7.3c3b4.we-aliyun.click, port: 63127, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
-  - { name: '🇺🇸 美国 03', type: anytls, server: 4.i.3.u.8.a.t.s.3c3b4.we-aliyun.click, port: 63128, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
-  - { name: '🇺🇸 美国 04', type: anytls, server: 5.e.4.p.v.n.q.x.3c3b4.we-aliyun.click, port: 63129, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
-  - { name: '🇺🇸 美国 05', type: anytls, server: b89c106690e14d3004d0a2031f5cc1c7.3c3b4.we-aliyun.click, port: 63130, password: 4d0bfd23-d5e4-42c8-a963-55d343fd263e, client-fingerprint: chrome, udp: true, tfo: false, alpn: [h2], sni: swdist.apple.com, skip-cert-verify: true }
 proxy-groups:
   - name: "WhatsApp"
     type: select
     proxies:
       - 🚀 节点选择
-      - 联通9929-US家宽2
+      - 联通9929-US家宽20
       - US家宽SS-¥30试用
+      - DMIT-CN2GIA-Fro家宽
       - '🇺🇸 美国-纽约 01丨1x US'
       - '🇺🇸 美国-纽约 02丨3x US'
       - '🇺🇸 美国-纽约 03丨1x US'
@@ -101,11 +91,6 @@ proxy-groups:
       - '🇨🇦 加拿大-家宽 01丨2x CA'
       - '🇨🇦 加拿大-家宽 02丨2x CA'
       - '🇨🇦 加拿大-家宽 03丨1x CA'
-      - '🇺🇸 美国 01'
-      - '🇺🇸 美国 02'
-      - '🇺🇸 美国 03'
-      - '🇺🇸 美国 04'
-      - '🇺🇸 美国 05'
   - name: 🚀 节点选择
     type: select
     proxies:
@@ -113,12 +98,7 @@ proxy-groups:
       - DIRECT
       - US-HIXX
       - US家宽SS-¥30试用
-      - '🇭🇰 香港 011'
-      - '🇭🇰 香港 022'
-      - '🇭🇰 香港 033'
-      - '🇭🇰 香港 044'
-      - '🇭🇰 香港 055'
-      - '🇭🇰 香港 066'
+      - DMIT-CN2GIA-Fro家宽
       - '🇭🇰 香港 HKBN 家宽 [2x]'
       - '🇭🇰 香港 01丨1x HK'
       - '🇭🇰 香港 02丨1x HK'
@@ -154,11 +134,6 @@ proxy-groups:
       - '🇺🇸 美国-阿什本丨1x US'
       - '🇺🇸 美国-拉斯维加斯丨1x US'
       - '🇭🇰 香港 HKBN 家宽 [2x]'
-      - '🇺🇸 美国 01'
-      - '🇺🇸 美国 02'
-      - '🇺🇸 美国 03'
-      - '🇺🇸 美国 04'
-      - '🇺🇸 美国 05'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -208,12 +183,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '🇭🇰 香港 011'
-      - '🇭🇰 香港 022'
-      - '🇭🇰 香港 033'
-      - '🇭🇰 香港 044'
-      - '🇭🇰 香港 055'
-      - '🇭🇰 香港 066'
       - '🇭🇰 香港 HKBN 家宽 [2x]'
       - '🇭🇰 香港 01丨1x HK'
       - '🇭🇰 香港 02丨1x HK'

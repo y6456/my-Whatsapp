@@ -11,7 +11,7 @@ keep-alive-interval: 360
 proxies:
   - { name: US-HIXX, server: dmitf.551554.xyz, port: 36482, type: anytls, password: LDoMmJjN, tls: true, sni: aif.551554.xyz}
   - { name: 联通9929-US家宽20, type: vless, server: 216.167.67.83, port: 24693, uuid: 1ee29309-3992-4f17-9f4d-86860cb93f40, network: tcp, udp: true, tls: true, client-fingerprint: chrome, servername: aws.amazon.com, reality-opts: {public-key: 7Uv50mbe1VwfBU1ge9DUkU78BcHzRBLTrAjA82wQnwQ, short-id: 11314f8a}}
-  - { name: US家宽SS-¥30试用, type: vless, server: 216.167.67.83, port: 58261, uuid: fc8c964c-68df-440c-9bf4-3e657a5a3dab, network: tcp, tls: true, udp: true, servername: www.amd.com, client-fingerprint: chrome, reality-opts: { public-key: cCVVSFZ38qm7Aq6MuYr-x0DUAZTU2xuYZDNWZMA7FEk, short-id: 95b0fadb } }
+  - { name: DMIT-共享Fro30-98, type: vless, server: 179.255.100.130, port: 18909, uuid: 9840d0bd-571e-43d3-b35a-5a2139d3bafe, network: tcp, udp: true, tls: true, servername: www.samsung.com, client-fingerprint: chrome, reality-opts: { public-key: ndRYkHptSqhg8juFDTwZ0kaC3eEqgHZM7UlJn5pp23Q, short-id: c675b562ee, spider-x: "/" } }
   - { name: '🇭🇰 香港 01丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 12022, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: DMIT-CN2GIA-Fro家宽, type: vless, server: 179.255.100.130, port: 57300, uuid: f9138b2c-2666-4f2a-8d21-333f80c9ef92, network: tcp, udp: true, tls: true, servername: www.amazon.com, reality-opts: { public-key: _TmGwIZhY9uYfc8JOEv2AIAGulfvmX5DxSI1FiKiQBE, short-id: ca22b4fa7e5960 }, client-fingerprint: chrome }
   - { name: '🇭🇰 香港 02丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 12023, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
@@ -62,7 +62,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 联通9929-US家宽20
-      - US家宽SS-¥30试用
+      - DMIT-共享Fro30-98
       - DMIT-CN2GIA-Fro家宽
       - '🇺🇸 美国-纽约 01丨1x US'
       - '🇺🇸 美国-纽约 02丨3x US'
@@ -97,7 +97,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - US-HIXX
-      - US家宽SS-¥30试用
       - DMIT-CN2GIA-Fro家宽
       - '🇭🇰 香港 HKBN 家宽 [2x]'
       - '🇭🇰 香港 01丨1x HK'

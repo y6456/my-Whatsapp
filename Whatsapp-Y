@@ -11,8 +11,8 @@ keep-alive-interval: 360
 proxies:
   - { name: US-HIXX, server: dmitf.551554.xyz, port: 36482, type: anytls, password: LDoMmJjN, tls: true, sni: aif.551554.xyz}
   - { name: 联通9929-US家宽20, type: vless, server: 216.167.67.83, port: 24693, uuid: 1ee29309-3992-4f17-9f4d-86860cb93f40, network: tcp, udp: true, tls: true, client-fingerprint: chrome, servername: aws.amazon.com, reality-opts: {public-key: 7Uv50mbe1VwfBU1ge9DUkU78BcHzRBLTrAjA82wQnwQ, short-id: 11314f8a}}
-  - { name: US家宽SS-¥30试用, type: vless, server: 216.167.67.83, port: 58261, uuid: fc8c964c-68df-440c-9bf4-3e657a5a3dab, network: tcp, tls: true, udp: true, servername: www.amd.com, client-fingerprint: chrome, reality-opts: { public-key: cCVVSFZ38qm7Aq6MuYr-x0DUAZTU2xuYZDNWZMA7FEk, short-id: 95b0fadb } }
-  - { name: Zgo-Fro家宽1, type: vless, server: 64.83.30.60, port: 24967, uuid: 7de423cd-42bd-4f4b-87d7-a595f674b105, network: tcp, udp: true, tls: true, servername: intel.com, client-fingerprint: chrome, reality-opts: {public-key: zq2PJBkb8c_-hlU9o9nNpAqx5g8WLd5J9_aaK6bVfmk, short-id: b7a6a4650fc18535, spider-x: "/%E5%AE%B6%E5%AE%BD1"}}
+  - { name: ZGO-COX家宽-27, type: vless, server: 64.83.30.60, port: 42031, uuid: 41491557-c5e0-4ec3-b7ff-bcb73b8c1652, network: tcp, udp: true, tls: true, servername: www.sony.co.uk, client-fingerprint: chrome, reality-opts: { public-key: nM_d4gl_Yj8f2PQEQs19s9P0k7EglNpiBoPfl3uQ8F4, short-id: "94a5c03205de", spider-x: "/" } }
+  - { name: ZGO-Fro家宽30-98备用, type: vless, server: 64.83.30.60, port: 38570, uuid: 1f13644a-0e4a-4d85-95a8-a3b6839351b3, network: tcp, udp: true, tls: true, servername: www.sony.co.uk, client-fingerprint: chrome, reality-opts: { public-key: _46L-uv46prOq0vJFqLTtxPJHQVOPTbqyEkQFPLQSXg, short-id: "40", spider-x: "/" } }
   - { name: '🇭🇰 香港 01丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 12022, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇭🇰 香港 02丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 12023, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇭🇰 香港 03丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 12024, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
@@ -62,8 +62,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 联通9929-US家宽20
-      - US家宽SS-¥30试用
-      - Zgo-Fro家宽1
+      - ZGO-COX家宽-27
+      - ZGO-Fro家宽30-98备用
       - '🇺🇸 美国-纽约 01丨1x US'
       - '🇺🇸 美国-纽约 02丨3x US'
       - '🇺🇸 美国-纽约 03丨1x US'
@@ -97,7 +97,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - US-HIXX
-      - Zgo-Fro家宽1
+      - ZGO-Fro家宽30-98备用
       - '🇭🇰 香港 HKBN 家宽 [2x]'
       - '🇭🇰 香港 01丨1x HK'
       - '🇭🇰 香港 02丨1x HK'

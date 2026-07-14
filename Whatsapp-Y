@@ -13,6 +13,8 @@ proxies:
   - { name: 联通9929-US家宽20, type: vless, server: 216.167.67.83, port: 24693, uuid: 1ee29309-3992-4f17-9f4d-86860cb93f40, network: tcp, udp: true, tls: true, client-fingerprint: chrome, servername: aws.amazon.com, reality-opts: {public-key: 7Uv50mbe1VwfBU1ge9DUkU78BcHzRBLTrAjA82wQnwQ, short-id: 11314f8a}}
   - { name: ZGO-COX家宽-27, type: vless, server: 64.83.30.60, port: 42031, uuid: 41491557-c5e0-4ec3-b7ff-bcb73b8c1652, network: tcp, udp: true, tls: true, servername: www.sony.co.uk, client-fingerprint: chrome, reality-opts: { public-key: nM_d4gl_Yj8f2PQEQs19s9P0k7EglNpiBoPfl3uQ8F4, short-id: "94a5c03205de", spider-x: "/" } }
   - { name: ZGO-Fro家宽30-98备用, type: vless, server: 64.83.30.60, port: 38570, uuid: 1f13644a-0e4a-4d85-95a8-a3b6839351b3, network: tcp, udp: true, tls: true, servername: www.sony.co.uk, client-fingerprint: chrome, reality-opts: { public-key: _46L-uv46prOq0vJFqLTtxPJHQVOPTbqyEkQFPLQSXg, short-id: "40", spider-x: "/" } }
+  - { name: DR-COX家宽27, type: vless, server: 107.175.239.29, port: 10384, uuid: 4a07cc04-2a22-4894-9a9b-28d803097669, network: tcp, udp: true, tls: true, servername: www.sony.com, client-fingerprint: chrome, reality-opts: { public-key: VZzIuJNsnXT0lJH7f05JHz59Bwq1fYvZnhLmp0CmUlw, short-id: "f6359342", spider-x: "/" } }
+  - { name: DR-COX家宽20, type: vless, server: 107.175.239.29, port: 22435, uuid: 199b2256-f4f9-4a23-aa6e-8932817b69c1, network: tcp, udp: true, tls: true, servername: www.intel.com, client-fingerprint: chrome, reality-opts: { public-key: 199vZlB9bW5vg_pUMqfp7rSndlEWDlFpU6_ZxKSONnQ, short-id: "5229", spider-x: "/" } }
   - { name: '🇭🇰 香港 01丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 12022, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇭🇰 香港 02丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 12023, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇭🇰 香港 03丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 12024, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
@@ -64,6 +66,8 @@ proxy-groups:
       - 联通9929-US家宽20
       - ZGO-COX家宽-27
       - ZGO-Fro家宽30-98备用
+      - DR-COX家宽27
+      - DR-COX家宽20
       - '🇺🇸 美国-纽约 01丨1x US'
       - '🇺🇸 美国-纽约 02丨3x US'
       - '🇺🇸 美国-纽约 03丨1x US'

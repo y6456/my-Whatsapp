@@ -9,12 +9,10 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - { name: US-HIXX, server: dmitf.551554.xyz, port: 36482, type: anytls, password: LDoMmJjN, tls: true, sni: aif.551554.xyz}
-  - { name: 联通9929-US家宽20, type: vless, server: 216.167.67.83, port: 24693, uuid: 1ee29309-3992-4f17-9f4d-86860cb93f40, network: tcp, udp: true, tls: true, client-fingerprint: chrome, servername: aws.amazon.com, reality-opts: {public-key: 7Uv50mbe1VwfBU1ge9DUkU78BcHzRBLTrAjA82wQnwQ, short-id: 11314f8a}}
   - { name: ZGO-COX家宽-27, type: vless, server: 64.83.30.60, port: 42031, uuid: 41491557-c5e0-4ec3-b7ff-bcb73b8c1652, network: tcp, udp: true, tls: true, servername: www.sony.co.uk, client-fingerprint: chrome, reality-opts: { public-key: nM_d4gl_Yj8f2PQEQs19s9P0k7EglNpiBoPfl3uQ8F4, short-id: "94a5c03205de", spider-x: "/" } }
   - { name: ZGO-Fro家宽30-98备用, type: vless, server: 64.83.30.60, port: 38570, uuid: 1f13644a-0e4a-4d85-95a8-a3b6839351b3, network: tcp, udp: true, tls: true, servername: www.sony.co.uk, client-fingerprint: chrome, reality-opts: { public-key: _46L-uv46prOq0vJFqLTtxPJHQVOPTbqyEkQFPLQSXg, short-id: "40", spider-x: "/" } }
   - { name: DR-COX家宽27, type: vless, server: 107.175.239.29, port: 10384, uuid: 4a07cc04-2a22-4894-9a9b-28d803097669, network: tcp, udp: true, tls: true, servername: www.sony.com, client-fingerprint: chrome, reality-opts: { public-key: VZzIuJNsnXT0lJH7f05JHz59Bwq1fYvZnhLmp0CmUlw, short-id: "f6359342", spider-x: "/" } }
-  - { name: DR-COX家宽20, type: vless, server: 107.175.239.29, port: 22435, uuid: 199b2256-f4f9-4a23-aa6e-8932817b69c1, network: tcp, udp: true, tls: true, servername: www.intel.com, client-fingerprint: chrome, reality-opts: { public-key: 199vZlB9bW5vg_pUMqfp7rSndlEWDlFpU6_ZxKSONnQ, short-id: "5229", spider-x: "/" } }
+  - {name: DR-直连, type: vless, server: 107.175.239.29, port: 50510, uuid: 81e3d76b-0c0d-4313-ba9a-27bc7108b9f3, network: tcp, tls: true, udp: true, servername: www.nvidia.com, client-fingerprint: chrome, reality-opts: {public-key: Rs5RCc1OZ8Lb7lADjn1ACaGxh_Ux_ZCCw3Cqhp6X_Q0, short-id: 9b46791cb42ba6f9}, smux: {enabled: false}}
   - { name: '🇭🇰 香港 01丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 12022, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇭🇰 香港 02丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 12023, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇭🇰 香港 03丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 12024, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
@@ -22,11 +20,10 @@ proxies:
   - { name: '🇭🇰 香港家宽 02丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 13105, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇭🇰 香港家宽 03丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 13115, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇭🇰 香港家宽 04丨1x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 20187, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
-  - { name: '🇭🇰 香港游戏丨2x HK', type: ss, server: 7b0bc2e9-ab7e-4279-9627-7d8cebdcdcc6.sankuaei.com, port: 12312, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇺🇸 美国-实验节点丨1x US', type: ss, server: 2fc4443b-87c4-4b1d-ba6c-67ab211b0ded.aixifan7498.com, port: 13303, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇺🇸 美国-费城丨1x US', type: ss, server: 2fc4443b-87c4-4b1d-ba6c-67ab211b0ded.aixifan7498.com, port: 13110, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇺🇸 美国-纽约 01丨1x US', type: ss, server: 2fc4443b-87c4-4b1d-ba6c-67ab211b0ded.aixifan7498.com, port: 13006, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
-  - { name: '🇺🇸 美国-纽约 02丨3x US', type: ss, server: 2fc4443b-87c4-4b1d-ba6c-67ab211b0ded.aixifan7498.com, port: 13284, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
+  - { name: '🇺🇸 美国-纽约 02丨1x US', type: ss, server: 2fc4443b-87c4-4b1d-ba6c-67ab211b0ded.aixifan7498.com, port: 13284, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇺🇸 美国-纽约 03丨1x US', type: ss, server: 2fc4443b-87c4-4b1d-ba6c-67ab211b0ded.aixifan7498.com, port: 13295, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇺🇸 美国-洛杉矶 01丨1x US', type: ss, server: 2fc4443b-87c4-4b1d-ba6c-67ab211b0ded.aixifan7498.com, port: 13007, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇺🇸 美国-洛杉矶 02丨1x US', type: ss, server: 2fc4443b-87c4-4b1d-ba6c-67ab211b0ded.aixifan7498.com, port: 13010, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
@@ -54,7 +51,7 @@ proxies:
   - { name: '🇺🇸 美国-家宽 04丨5x US', type: ss, server: 2fc4443b-87c4-4b1d-ba6c-67ab211b0ded.aixifan7498.com, port: 13213, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇺🇸 美国-家宽 05丨5x US', type: ss, server: 2fc4443b-87c4-4b1d-ba6c-67ab211b0ded.aixifan7498.com, port: 13301, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇺🇸 美国-家宽 06丨5x US', type: ss, server: 2fc4443b-87c4-4b1d-ba6c-67ab211b0ded.aixifan7498.com, port: 13302, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
-  - { name: '🇺🇸 美国-星链丨20x US', type: ss, server: 2fc4443b-87c4-4b1d-ba6c-67ab211b0ded.aixifan7498.com, port: 13232, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
+  - { name: '🇺🇸 美国-星链丨10x US', type: ss, server: 2fc4443b-87c4-4b1d-ba6c-67ab211b0ded.aixifan7498.com, port: 13232, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇨🇦 加拿大-家宽 01丨2x CA', type: ss, server: 2fc4443b-87c4-4b1d-ba6c-67ab211b0ded.aixifan7498.com, port: 13117, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇨🇦 加拿大-家宽 02丨2x CA', type: ss, server: 2fc4443b-87c4-4b1d-ba6c-67ab211b0ded.aixifan7498.com, port: 13291, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
   - { name: '🇨🇦 加拿大-家宽 03丨1x CA', type: ss, server: 2fc4443b-87c4-4b1d-ba6c-67ab211b0ded.aixifan7498.com, port: 13270, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: { mode: http, host: aca4a8afc24d.microsoft.com }, udp: true }
@@ -63,11 +60,10 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点选择
-      - 联通9929-US家宽20
       - ZGO-COX家宽-27
       - ZGO-Fro家宽30-98备用
       - DR-COX家宽27
-      - DR-COX家宽20
+      - DR-直连
       - '🇺🇸 美国-纽约 01丨1x US'
       - '🇺🇸 美国-纽约 02丨3x US'
       - '🇺🇸 美国-纽约 03丨1x US'
